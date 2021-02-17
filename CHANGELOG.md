@@ -1,8 +1,23 @@
 # Changelog
 
+## 3.1.1
+
+- Fixed #372: malformed empty multipart request on Android
+
+## 3.1.0
+
+- Feature #272: add support for aborting requests (thanks russaa)
+
+## 3.0.1
+
+- Fixed #359: memory leakage leads to app crashes on Android
+- Fixed #355: responseType "json" not working with valid JSON response on browser (thanks millerg6711)
+
 ## 3.0.0
 
 - Feature #158: support removing headers which were previously set via "setHeader"
+
+- Fixed #345: empty file names are not handled correctly (thanks ikosta)
 
 - :warning: **Breaking Change**: Dropped support for Android < 5.1
 - :warning: **Breaking Change**: Removed "disableRedirect", use "setFollowRedirect" instead
